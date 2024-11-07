@@ -25,12 +25,10 @@ const Home = () => {
               className="text-6xl text-left"
             />
             <p className="my-4 text-base font-medium">
-              Tengo 28 años y soy desarrollador Full Stack con una gran
-              experiencia en desarrollo de sitios web. He trabajado a distancia
-              para agencias, como desarrollador para startups, y he colaborado
-              con personas talentosas para crear productos digitales para uso
-              comercial. Tengo una curiosidad sobre todo y trabajo constante
-              para mejorar mis habilidades.
+              Como desarrollador Full-Stack experimentado, me dedico a convertir
+              ideas en aplicaciones web innovadoras. Explora mis últimos
+              proyectos, que muestran mi experiencia en React.js y desarrollo
+              web.
             </p>
             <div className="flex items-center self-start mt-2">
               <Link

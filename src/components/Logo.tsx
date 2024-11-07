@@ -19,7 +19,7 @@ const Logo = () => {
           ],
           transition: { duration: 1, repeat: Infinity },
         }}
-        href="/public"
+        href="/"
         className="w-16 h-16 bg-dark text-light flex items-center justify-center rounded-full text-2xl font-bold"
       >
         GA

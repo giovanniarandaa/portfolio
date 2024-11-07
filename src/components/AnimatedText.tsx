@@ -41,7 +41,7 @@ const AnimatedText = ({
         variants={quote}
         initial="initial"
         animate="animate"
-        className={`inline-block w-full text-dark font-bold capitalize text-8xl ${className}`}
+        className={`inline-block w-full text-dark font-bold text-8xl ${className}`}
       >
         {text.split(" ").map((word, index) => (
           <motion.span
@@ -49,7 +49,7 @@ const AnimatedText = ({
             key={`${word}-${index}`}
             className="inline-block"
           >
-            {word}
+            {word}&nbsp;
           </motion.span>
         ))}
       </motion.h1>

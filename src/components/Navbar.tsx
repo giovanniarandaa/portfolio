@@ -8,8 +8,8 @@ const Navbar = () => {
   return (
     <header className="w-full px-32 py-8 font-medium flex items-center justify-between">
       <nav>
-        <CustomLink href="/public" title="Inicio" className="mr-4" />
-        <CustomLink href="/about" title="Sobre mi" className="mx-4" />
+        <CustomLink href="/" title="Inicio" className="mr-4" />
+        <CustomLink href="/sobre-mi" title="Sobre mi" className="mx-4" />
         <CustomLink href="/projects" title="Proyectos" className="mx-4" />
       </nav>
       <div className="absolute left-[50%] top-2 translate-x-[-50%]">
